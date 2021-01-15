@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,12 +6,24 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Etch-A-Sketch</h1>
-        <section id="grid-container" class="grid"></section>
+        <main>
+            <section id="grid-container" class="grid">
+
+            </section>
+            <section class="controls">
+                <button id="changeSize">Change Size</button>
+                <button id="eraser" class="colors">Eraser</button>
+                <button id="rainbow" class="colors">Rainbow</button>
+                <button id="black" class="colors">Black</button>
+            </section>
+        </main>
+
+
         
-        <script src="script.js" async defer></script>
+        <script src="script.js"></script>
     </body>
 </html>
